@@ -1,0 +1,107 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+/* Título de la aplicación */
+h1 {
+    color: #333;
+}
+
+/* Estilo del input y el botón */
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Sección de información del Pokémon */
+#pokemon-info {
+    margin-top: 20px;
+}
+
+#pokemon-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stats {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.stats p {
+    margin: 4px 0;
+}
+
+/* Tipos de Pokémon */
+#types {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#types p {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Imagen del Pokémon */
+#sprite-container {
+    margin-top: 20px;
+}
+
+#sprite {
+    width: 120px;
+    height: 120px;
+}
+
+/* Estilos adicionales */
+.alert {
+    color: red;
+    font-weight: bold;
+}
